@@ -1,7 +1,7 @@
 import unittest
 
 class Test(unittest.TestCase):
-  
+   @unittest.skip("Example of skipping")
          
    # def division(numberOne, numberTwo):
    #         result = numberOne/ numberTwo
